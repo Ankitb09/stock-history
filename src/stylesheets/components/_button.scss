@@ -1,0 +1,8 @@
+.btn{
+    vertical-align: top;
+
+    &:focus,&:active{
+        outline: 0 none;
+        box-shadow: none
+    }
+}

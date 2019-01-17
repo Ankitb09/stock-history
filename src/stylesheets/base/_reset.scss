@@ -1,0 +1,55 @@
+/// <reference path = "../abstracts/__abstracts.scss">
+/*Global css*/
+
+html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body {
+    min-height: 100%;
+}
+
+body {
+    background-color: $body-bg;
+    color: $text-default-color;
+    font-size: $font-size;
+    font-family: $font-family-primary;
+    
+}
+
+//*{@include transition(all ,.25s,ease);}
+p {
+    margin: 0 0 10px
+}
+
+a {
+    text-decoration: underline;
+    color: $link-color;
+    &:link,
+    &:active,
+    &:hover,
+    &:focus {
+        outline: 0
+    }
+    &:visited {
+        text-decoration: underline
+    }
+}
+
+img {
+    height: auto;
+    max-width: 100%
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+@media(min-width:992px) {
+    .container {
+        width: 990px;
+    }
+}

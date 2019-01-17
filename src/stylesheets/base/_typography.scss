@@ -1,0 +1,18 @@
+/// <reference path = "../abstracts/__abstracts.scss">
+/*==Typography css==*/
+
+
+.font-primary {
+    font-family: $font-family-primary
+}
+
+.font-secondary {
+    font-family: $font-family-secondary
+}
+
+.page-title {
+    color: $text-heading-color;
+    font-family: $font-family-primary;
+    font-weight: 300;
+}
+
